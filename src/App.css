@@ -29,14 +29,12 @@ h1 {
 
 .teams {
   display: flex;
-  flex-direction: row; /* por padrão, empilha no mobile */
   gap: 1rem;
   width: 100%;
 }
 
 @media (min-width: 600px) {
   .teams {
-    flex-direction: row;
     justify-content: center;
     gap: 2rem;
   }
@@ -53,6 +51,10 @@ h1 {
   flex: 1;
   max-width: 100%;       /* impede de estourar a tela */
   padding: 1.2rem 0.8rem;
+
+  @media (max-width: 600px) {
+    flex-direction: row; 
+  }
 }
 
 .team h2 {
