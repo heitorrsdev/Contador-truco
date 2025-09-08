@@ -24,24 +24,24 @@ function App() {
         <div className="team blue">
           <h2>Time Azul</h2>
           <div className="controls">
-            <button onClick={() => decrement(setBlueTeam, blueTeam)}>
-              <span className="change-point-btn">-</span>
-            </button>
-            <span className="points">{blueTeam}</span>
             <button onClick={() => increment(setBlueTeam, blueTeam)}>
               <span className="change-point-btn">+</span>
+            </button>
+            <span className="points">{blueTeam}</span>
+            <button onClick={() => decrement(setBlueTeam, blueTeam)}>
+              <span className="change-point-btn">-</span>
             </button>
           </div>
         </div>
         <div className="team red">
           <h2>Time Vermelho</h2>
           <div className="controls">
-            <button onClick={() => decrement(setRedTeam, redTeam)}>
-              <span className="change-point-btn">-</span>
-            </button>
-            <span className="points">{redTeam}</span>
             <button onClick={() => increment(setRedTeam, redTeam)}>
               <span className="change-point-btn">+</span>
+            </button>
+            <span className="points">{redTeam}</span>
+            <button onClick={() => decrement(setRedTeam, redTeam)}>
+              <span className="change-point-btn">-</span>
             </button>
           </div>
         </div>
