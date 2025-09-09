@@ -42,7 +42,10 @@ h1 {
 }
 
 .teams {
+  align-content: center;
   display: flex;
+  gap: 25px;
+  justify-content: center;
   width: calc(100% - 1rem);
 }
 
