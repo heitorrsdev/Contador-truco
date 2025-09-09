@@ -43,14 +43,12 @@ h1 {
 
 .teams {
   display: flex;
-  gap: 1rem;
   width: calc(100% - 1rem);
 }
 
 @media (min-width: 600px) {
   .teams {
     justify-content: center;
-    gap: 2rem;
   }
 }
 
