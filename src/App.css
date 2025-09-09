@@ -60,10 +60,6 @@ h1 {
   flex-direction: column;
   max-width: 100%;       /* impede de estourar a tela */
   padding: 1.2rem 0.8rem;
-
-  @media (max-width: 600px) {
-    flex-direction: row; 
-  }
 }
 
 .team h2 {
