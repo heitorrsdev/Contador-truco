@@ -17,12 +17,6 @@ body {
   padding: 1rem 2rem;
   max-width: 600px;
   text-align: center;
-  width: 90%;
-
-  @media (max-width: 600px) {
-    width: auto;
-    margin: 0;
-  }
 }
 
 h1 {
@@ -48,12 +42,6 @@ h1 {
   gap: 40px;
   justify-content: center;
   width: calc(100% - 1rem);
-}
-
-@media (min-width: 600px) {
-  .teams {
-    justify-content: center;
-  }
 }
 
 .team {
