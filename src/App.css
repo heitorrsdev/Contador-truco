@@ -84,10 +84,14 @@ h1 {
 .controls {
   align-items: center;
   display: flex;
-  flex-wrap: wrap; /* deixa quebrar caso precise */
   gap: 1rem; /* menor no mobile */
   justify-content: center;
   width: 100%; /* ocupa largura total */
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 
 .points {
