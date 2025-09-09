@@ -16,10 +16,17 @@ function App() {
     setBlueTeam(0)
     setRedTeam(0)
   }
+  const winner = () => {
+    if (blueTeam === redTeam || (blueTeam < maxPoints && redTeam < maxPoints)) {
+      return null
+    }
+    return blueTeam > redTeam ? "Azul" : "Vermelho"
+  }
 
   return (
     <div className="container">
       <h1>Contador para Truco</h1>
+      <div className={winner() ? "winner" : "hidden"}>Time { winner() } venceu 🏆</div>
       <div className="teams">
         <div className="team blue">
           <h2>Time Azul</h2>
