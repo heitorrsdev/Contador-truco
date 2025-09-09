@@ -71,13 +71,14 @@ h1 {
 .controls {
   align-items: center;
   display: flex;
-  gap: 1rem; /* menor no mobile */
+  flex-direction: column;
+  gap: 0.5rem;
   justify-content: center;
-  width: 100%; /* ocupa largura total */
-
-  @media (max-width: 600px) {
-    flex-direction: column;
-    gap: 0.5rem;
+  width: 100%;
+  
+  @media (min-width: 600px) {
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 
