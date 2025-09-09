@@ -29,7 +29,7 @@ function App() {
       <div className={winner() ? "winner" : "hidden"}>Time { winner() } venceu 🏆</div>
       <div className="teams">
         <div className="team blue">
-          <h2>Time Azul</h2>
+          <h2>Time 🟦</h2>
           <div className="controls">
             <button onClick={() => increment(setBlueTeam, blueTeam)}>
               <span className="change-point-btn">+</span>
@@ -41,7 +41,7 @@ function App() {
           </div>
         </div>
         <div className="team red">
-          <h2>Time Vermelho</h2>
+          <h2>Time 🟥</h2>
           <div className="controls">
             <button onClick={() => increment(setRedTeam, redTeam)}>
               <span className="change-point-btn">+</span>
