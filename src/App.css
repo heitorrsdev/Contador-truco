@@ -58,7 +58,6 @@ h1 {
   box-sizing: border-box; /* conta padding dentro do width */
   display: flex;
   flex-direction: column;
-  flex: 1;
   max-width: 100%;       /* impede de estourar a tela */
   padding: 1.2rem 0.8rem;
 
