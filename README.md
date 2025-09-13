@@ -67,7 +67,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## Aplicação Publicada
 
-Você pode acessar a versão publicada do Contador de Truco em: [contador-truco-zeta.vercel.app](https://contador-truco-zeta.vercel.app/)
+Você pode acessar a versão publicada do Contador de Truco em: [contador-truco-heitorrsdev.vercel.app](https://contador-truco-heitorrsdev.vercel.app/)
 
 
 
