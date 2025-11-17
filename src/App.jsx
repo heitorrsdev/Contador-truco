@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const maxPoints = 12
+  const maxPoints = 100
   const [blueTeam, setBlueTeam] = useState(0)
   const [redTeam, setRedTeam] = useState(0)
 
